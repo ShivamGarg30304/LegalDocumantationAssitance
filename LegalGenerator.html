@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://127.0.0.1:5500/Doc%20Generator.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Certificate Generator</title>
+    <link rel="stylesheet" href="DocGenerator.css" type="text/css">
+    <style>
+      body{
+        background-image: url("https://lifebeyondnumbers.b-cdn.net/wp-content/uploads/2019/01/National-Emblem-of-India.jpg");
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      
+        
+      }
+      .navbar{
+        background-color:rgb(243, 119, 36);
+        border-radius: 30px;
+      }
+      .navbar ul{
+        overflow: auto;
+      }
+      .navbar li{
+        float:left;
+        list-style: none;
+        margin: 10px;
+        
+      }
+      .navbar li a{
+        padding: 3px 3px;
+        text-decoration: none;
+        color: white;
+        font-size: larger;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+      }
+      .navbar li a:hover{
+        color: aquamarine;
+
+      }
+      .Search{
+        float: right;
+        color: white;
+        padding: 12px 75px;
+      }
+      .navbar input{
+        border: 2px solid black;
+        border-radius: 5px;
+        width: 200px;
+
+      }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>
+                   <a>Legal Certificate Generator</a> 
+                </li>
+                <div class="Search">
+                     <input type="text" name="Search" id="Search" placeholder="Search For The Certificate">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="">
+           <h1 style="text-align: center;">GOVERNMENT VERIFIED LEGAL DOCUMENT</h1>
+           <form id="register" method="post">
+            <label>First Party(Name Of Organisation) : </label>
+            <br>
+            <input type="text" name="first party" id="fist party" placeholder="Enter First Party Name">
+            <br><br>
+            <label>Second Party(Self) : </label>
+            <br>
+            <input type="text" name="second party" id="second party" placeholder="Enter Second Party Name">
+            <br><br>
+            <label>Subject(Article) : </label>
+            <br>
+            <select name="Law">
+                <option value="Law 1">Select an article</option>
+                <option value="Law 2">Rental Agreement()12</option>
+                <option value="Law 3">Incorporation Certificate(companies Act 2013)</option>
+                <option value="Law 4">Affidavit(4)</option>
+                <option value="Law 6">MSME Certificate(2006)</option>
+                <option value="Law 7">Income Certificate</option>
+                <option value="Law 8">ZED Certificate(MSME)</option>
+                <option value="Law 9">Private Limited(companies act 2013)</option>
+            </select>
+            <br><br>
+            <label>Description : </label>
+            <br>
+            <input type="text" name="description" id="description" placeholder="Description">
+            <br><br>
+            <input type="Submit" value="Submit" name="Submit" id="Submit">
+           </form>
+        </div>
+    </div>
+    
+    
+<!-- Code injected by live-server
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+</script> -->
+
+</body>
+</html>

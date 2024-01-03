@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>juriflow</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<style>
+  .conatin{
+    background: linear-gradient(300deg, #9dff00,#ffd24c,#7c72ef);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s  infinite;
+  }
+
+  @keyframes gradient-animation{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+  100%{
+    background-position: 0% 50%;
+  }
+  }
+
+   .container{
+    position:relative;
+    overflow:hidden;
+
+   }
+
+   .bubbles{
+    position: relative;
+    display:flex;
+   }
+
+   .bubbles span{
+    position: relative;
+    width:30px;
+    height:30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius:50%;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+   }
+
+   .bubbles span:nth-child(even)
+   {
+    background: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544,
+    0 0 50px #ff2d75,
+    0 0 100px #ff2d75;
+   }
+
+   @keyframes animate{
+  0%{
+    transform: translateY(100vh) scale(0);
+  }
+
+  100%{
+    transform: translateY(-10vh) scale(1);
+  }
+
+   }
+</style>
+<body>
+
+
+  <div class="container">
+<div class="bubbles">
+  <span style="--i:11;"></span>
+  <span style="--i:12;"></span>
+  <span style="--i:24;"></span>
+  <span style="--i:10;"></span>
+  <span style="--i:14;"></span>
+  <span style="--i:23;"></span>
+  <span style="--i:18;"></span>
+  <span style="--i:16;"></span>
+  <span style="--i:19;"></span>
+  <span style="--i:20;"></span>
+  <span style="--i:22;"></span>
+  <span style="--i:25;"></span>
+  <span style="--i:18;"></span>
+  <span style="--i:21;"></span>
+  <span style="--i:15;"></span>
+  <span style="--i:13;"></span>
+  <span style="--i:26;"></span>
+  <span style="--i:17;"></span>
+  <span style="--i:13;"></span>
+  <span style="--i:28;"></span>
+  <span style="--i:11;"></span>
+  <span style="--i:12;"></span>
+  <span style="--i:24;"></span>
+  <span style="--i:10;"></span>
+  <span style="--i:14;"></span>
+  <span style="--i:23;"></span>
+  <span style="--i:18;"></span>
+  <span style="--i:16;"></span>
+  <span style="--i:19;"></span>
+  <span style="--i:20;"></span>
+  <span style="--i:22;"></span>
+  <span style="--i:25;"></span>
+  <span style="--i:18;"></span>
+  <span style="--i:21;"></span>
+  <span style="--i:15;"></span>
+  <span style="--i:13;"></span>
+  <span style="--i:26;"></span>
+  <span style="--i:17;"></span>
+  <span style="--i:13;"></span>
+  <span style="--i:28;"></span>
+</div> 
+    <div class="container my-5">
+        <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+          <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+            <h1 class="display-4 fw-bold lh-1 text-body-emphasis">Juri Flow</h1>
+            <p class="lead">Say goodbye to hefty fees - Unlock exceptional legal assistance anytime, anywhere with the finest AI lawyer at your fingerti</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" fdprocessedid="iqypsg">Try it for free</button>
+              
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+              <img class="rounded-lg-3" src="bootstrap-docs.png" alt="" width="720">
+          </div>
+        </div>
+      </div>
+</div>
+<div class="conatin">
+
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./juriflow.webp" class="d-block mx-lg-auto img-fluid" alt="Atificial intelligence" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Facing Legal Dilemmas?</h1>
+            <p class="lead">Upload any legal documents and chat with it.
+                </p>
+                <ul>
+                    <li>Ask questions</li>
+                    <li>Gain valuable insights</li>
+                    <li>Summarize content</li>
+                    <li>Locate critical information</li>
+                    <li>Obtain expert advice and more</li>
+                </ul>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <p>Great for lawyers, law students, and individuals seeking legal help!</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+<hr>
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="./jurilawyer.webp" class="d-block mx-lg-auto img-fluid" alt="Atificial intelligence" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Facing Legal Dilemmas?</h1>
+            <p class="lead">Seeking Legal Experts?
+                </p>
+                <p>Consult with 10+ expert lawyers across diverse specialties - powered by AI.</p>
+                <ul>
+                    <li>24/7 Expert Access</li>
+                    <li>Save time and money</li>
+                    <li>Receive personalized solutions</li>
+                    <li>Stress-free legal assistance</li>
+                    <li>No appointment needed</li>            
+                </ul>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <p>Great for lawyers, law students, and individuals seeking legal help!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>  
+</body>
+</html>
