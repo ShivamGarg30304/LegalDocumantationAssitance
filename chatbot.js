@@ -18,7 +18,7 @@ function askQuestion() {
     if (questionLower.includes('hi') || questionLower.includes('hello')) {
       return 'Hello! How can I assist you today?';
     }
-     else if (questionLower.includes('how are you')) {
+     else if (questionLower.includes('I want to about my basic right as a citizen of india')) {
       return 'I\'m just a bot, but thank you for asking!';
     } 
      else if (questionLower.includes('how are you')) {
@@ -46,7 +46,7 @@ function askQuestion() {
       return 'I\'m just a bot, but thank you for asking!';
     } 
     else {
-      return 'I\'m sorry, I didn\'t understand that question.';
+      return 'Sorry for inconvience the work is under progress';
     }
   }
   
